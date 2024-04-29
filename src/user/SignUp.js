@@ -223,8 +223,8 @@ export default function SignUp() {
     allowExtraEmails: false
   });
 
-  const [message, setMessage] = useState('');
-  const [error, setError] = useState('');
+  // const [message, setMessage] = useState('');
+  // const [error, setError] = useState('');
   const [open, setOpen] = useState(false);
 
   const handleChange = (e) => {

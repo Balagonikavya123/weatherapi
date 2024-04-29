@@ -5,7 +5,9 @@ import './home.css';
 export default function AdminHome() {
   return (
     <div className="home-container">
-      <img src={myImage} alt="My Image" className="background-image" />
+      <img src={myImage} alt="admin back" className="background-image" />
     </div>
   );
 }
+
+

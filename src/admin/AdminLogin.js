@@ -76,8 +76,8 @@ export default function AdminLogin() {
     username: '',
     password: ''
   });
-  const [message, setMessage] = useState('');
-  const [error, setError] = useState('');
+  // const [message, setMessage] = useState('');
+  // const [error, setError] = useState('');
   const [openErrorSnackbar, setOpenErrorSnackbar] = useState(false); // State for error snackbar
   const navigate = useNavigate();
 
